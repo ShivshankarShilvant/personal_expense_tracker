@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Expense Analytics</h2>
+<div>
+    <h3>Expenses by Category</h3>
+    <img src="/static/category_bar_chart.png" alt="Bar Chart">
+</div>
+<div>
+    <h3>Expense Distribution</h3>
+    <img src="/static/category_pie_chart.png" alt="Pie Chart">
+</div>
+<a href="{{ url_for('index') }}" class="link-button">Back</a>
+{% endblock %}
