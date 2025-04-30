@@ -20,6 +20,9 @@ A simple Flask web application to track and analyze your expenses using SQLite a
 ## 📷 Screenshots
 
 Analytics (Bar + Pie Chart)
+![Bar Chart](static/category_bar_chart.png)  
+![Pie Chart](static/category_pie_chart.png)
+
 
 ## 🚀 How to Run
 
